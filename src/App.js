@@ -15,7 +15,7 @@ function App() {
           : <Home onClick={() => {setStart(true)}}/>
         }
       </main>
-      <footer>Made with ❤️ by YALU</footer>
+      <footer>Made with <span role="img" aria-label="heart">❤️</span> by YALU</footer>
     </div>
   );
 }

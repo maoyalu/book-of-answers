@@ -15,7 +15,7 @@ function Ask() {
         rawFile.onreadystatechange = () => {
             if(rawFile.readyState === 4)
             {
-                if(rawFile.status === 200 || rawFile.status == 0)
+                if(rawFile.status === 200 || rawFile.status === 0)
                 {
                     allText = rawFile.responseText;
                     answers = allText.split("\n");
