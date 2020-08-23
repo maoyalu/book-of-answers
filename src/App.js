@@ -1,24 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {useState} from 'react';
 import './App.css';
 
+import Home from './Home'
+import Ask from './Ask'
+
 function App() {
+  let [start, setStart] = useState(false);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <main className="App-Content">
+        {start
+          ? <Ask />
+          : <Home onClick={() => {setStart(true)}}/>
+        }
+      </main>
+      <footer>Made with ❤️ by YALU</footer>
     </div>
   );
 }
