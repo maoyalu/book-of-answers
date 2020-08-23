@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/book-of-answers/static/css/main.b51f436c.chunk.css",
+    "main.js": "/book-of-answers/static/js/main.ff919ce2.chunk.js",
+    "main.js.map": "/book-of-answers/static/js/main.ff919ce2.chunk.js.map",
+    "runtime-main.js": "/book-of-answers/static/js/runtime-main.ef306b56.js",
+    "runtime-main.js.map": "/book-of-answers/static/js/runtime-main.ef306b56.js.map",
+    "static/js/2.4030f18f.chunk.js": "/book-of-answers/static/js/2.4030f18f.chunk.js",
+    "static/js/2.4030f18f.chunk.js.map": "/book-of-answers/static/js/2.4030f18f.chunk.js.map",
+    "index.html": "/book-of-answers/index.html",
+    "precache-manifest.249cf1e02bb3f29df20f57d7a90b967c.js": "/book-of-answers/precache-manifest.249cf1e02bb3f29df20f57d7a90b967c.js",
+    "service-worker.js": "/book-of-answers/service-worker.js",
+    "static/css/main.b51f436c.chunk.css.map": "/book-of-answers/static/css/main.b51f436c.chunk.css.map",
+    "static/js/2.4030f18f.chunk.js.LICENSE.txt": "/book-of-answers/static/js/2.4030f18f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ef306b56.js",
+    "static/js/2.4030f18f.chunk.js",
+    "static/css/main.b51f436c.chunk.css",
+    "static/js/main.ff919ce2.chunk.js"
+  ]
+}
